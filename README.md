@@ -27,7 +27,8 @@ wget "https://raw.githubusercontent.com/Onair-santa/Crowdsec-1-click/main/instal
 - Starting Crowdsec
 #### Config Crowdsec :
 - config /etc/crowdsec/config.yaml (online community (blocked IP) base is disabled)
-- bounsers list: firewall-bouncer, ssh-bounser
+- bounsers list: firewall-bouncer
+- Bucket list: ssh-bf, ssh-slow-bf
 - Status command:
   
   ```
