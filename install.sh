@@ -133,7 +133,7 @@ EOF
     # Reload
     sudo systemctl reload crowdsec
     echo 
-    green_msg 'Crowdsec Installed & Optimized.'
+    yellow_msg 'Crowdsec Installed & Optimized.'
     echo 
     sleep 0.5
 }
