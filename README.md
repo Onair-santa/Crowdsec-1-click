@@ -1,4 +1,5 @@
 ## <a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-linux.png" width="32" height="32"></a>(Debian, Ubuntu) Crowdsec-1-click
+###  Crowdsec - is the best analog Fail2ban
 ###  Bash script installs Crowdsec and settings file, and installs nftables to block IP addresses
 ![image](https://github.com/Onair-santa/Crowdsec-1-click/assets/42511409/b0d187a4-89b9-4b90-8dbb-824e35fdd39f)
 
