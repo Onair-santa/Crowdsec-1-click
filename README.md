@@ -1,6 +1,7 @@
 ## <a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-linux.png" width="32" height="32"></a>(Debian, Ubuntu) Crowdsec-1-click
 ###  Bash script installs Crowdsec and settings file, and installs nftables to block IP addresses
-![image](https://github.com/Onair-santa/Fail2ban-1-click/assets/42511409/0d8d0f7e-4e6f-4d31-8d59-81049d15137a)
+![image](https://github.com/Onair-santa/Crowdsec-1-click/assets/42511409/b0d187a4-89b9-4b90-8dbb-824e35fdd39f)
+
 #### 💠  Ensure that the `sudo` and `wget` packages are installed on your system:
 
 ```
