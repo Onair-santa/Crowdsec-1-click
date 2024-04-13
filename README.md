@@ -31,10 +31,10 @@ wget "https://raw.githubusercontent.com/Onair-santa/Crowdsec-1-click/main/instal
 - Status command:
   
   ```
- cscli metrics
- cscli decisions list
- cscli alerts list
- cscli bouncers list
+  cscli metrics
+  cscli decisions list
+  cscli alerts list
+  cscli bouncers list
   ```
 
 #### 💠 Thanks and more info
