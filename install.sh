@@ -121,8 +121,8 @@ api:
     listen_uri: 127.0.0.1:8080
     profiles_path: /etc/crowdsec/profiles.yaml
     console_path: /etc/crowdsec/console.yaml
-    #online_client: # Central API credentials (to push signals and receive bad IPs)
-      #credentials_path: /etc/crowdsec/online_api_credentials.yaml
+    online_client: # Central API credentials (to push signals and receive bad IPs)
+      credentials_path: /etc/crowdsec/online_api_credentials.yaml
     trusted_ips: # IP ranges, or IPs which can have admin API access
       - 127.0.0.1
       - ::1
