@@ -23,12 +23,12 @@ wget "https://raw.githubusercontent.com/Onair-santa/Crowdsec-1-click/main/instal
 #### It performs the following tasks:
 - Remove firewalld, ufw or iptables
 - Install nftables
-- Open ports 22, 443, 80
+- Open ports 22, 443, 80, 8080
 - Install Crowdsec
 - install config Crowdsec
 - Starting Crowdsec
 #### Config Crowdsec :
-- config /etc/crowdsec/config.yaml (online community (blocked IP) base is disabled)
+- config /etc/crowdsec/config.yaml
 - bounsers list: firewall-bouncer
 - Bucket list: ssh-bf, ssh-slow-bf
 - Status command:
