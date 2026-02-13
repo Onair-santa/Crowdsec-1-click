@@ -132,7 +132,6 @@ prometheus:
   listen_addr: 127.0.0.1
   listen_port: 6060
 EOF
-    cscli collections install crowdsecurity/iptables
     # Reload
     sudo systemctl reload crowdsec
     echo 
