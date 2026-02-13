@@ -49,6 +49,7 @@ sudo nft add rule inet filter input ct state established,related accept
 sudo nft add rule inet filter input iifname "$INTERFACE" tcp dport 22 accept
 sudo nft add rule inet filter input iifname "$INTERFACE" tcp dport 80 accept
 sudo nft add rule inet filter input iifname "$INTERFACE" tcp dport 443 accept
+sudo nft add rule inet filter input iifname "$INTERFACE" tcp dport 8080 accept
 sudo nft add chain inet filter input '{ policy drop; }'
 sleep 0.5
 echo '#!/usr/sbin/nft -f' > /etc/nftables.conf
@@ -61,7 +62,7 @@ sleep 0.5
 # Enable & Reload
 sudo systemctl restart nftables
 echo 
-yellow_msg 'NFT is Installed. (Ports 22, 80, 443 is opened)'
+yellow_msg 'NFT is Installed. (Ports 22, 80, 443, 8080 is opened)'
 echo 
 sleep 0.5
 }
