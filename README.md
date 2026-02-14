@@ -1,6 +1,6 @@
 ## <a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-linux.png" width="32" height="32"></a>(Debian, Ubuntu) Crowdsec-1-click
 ###  Crowdsec - is the best analog Fail2ban, the open-source security solution for youre server
-###  Bash script installs Crowdsec and settings file, and installs nftables to block IP addresses
+###  Bash script installs Crowdsec and installs nftables to block IP addresses
 ![image](https://github.com/Onair-santa/Crowdsec-1-click/assets/42511409/b0d187a4-89b9-4b90-8dbb-824e35fdd39f)
 
 #### 💠  Ensure that the `sudo` and `wget` packages are installed on your system:
@@ -25,11 +25,10 @@ wget "https://raw.githubusercontent.com/Onair-santa/Crowdsec-1-click/main/instal
 - Install nftables
 - Open ports 22, 443, 80, 8080
 - Install Crowdsec
-- install config Crowdsec
+- install firewall-bouncer-nftables
 - Starting Crowdsec
 #### Config Crowdsec :
-- config /etc/crowdsec/config.yaml
-- bounsers list: firewall-bouncer
+- bounsers list: firewall-bouncer-nftables
 - Bucket list: ssh-bf, ssh-slow-bf
 - Status command:
   
